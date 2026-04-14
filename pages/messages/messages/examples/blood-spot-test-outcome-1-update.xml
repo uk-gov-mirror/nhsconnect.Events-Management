@@ -565,7 +565,43 @@
 				</report>
 			</Procedure>
 		</resource>
-	</entry>		
+	</entry>	
+	<!--Blood Spot Test SMA Procedure-->
+	<entry>
+		<fullUrl value="urn:uuid:e65dcadf-d871-4c24-a6d5-04bf0bcc3947"/>
+		<resource>
+			<Procedure>
+				<id value="e65dcadf-d871-4c24-a6d5-04bf0bcc3947"/>
+				<meta>
+					<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Procedure-1"/>
+				</meta>
+				<status value="completed"/>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="2826241000000101"/>
+						<display value="Spinal muscular atrophy screening test"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="urn:uuid:5d5845f3-398f-474b-af59-14882fc7b0ca"/>
+				</subject>
+				<context>
+					<reference value="urn:uuid:1bcb0151-4ddf-4084-9c06-e8a31fdcf25b"/>
+				</context>
+				<outcome>
+					<coding>
+						<system value="https://fhir.nhs.uk/STU3/ValueSet/DCH-BloodSpotOutcome-1"/>
+						<code value="2857371000000104"/>
+						<display value="Spinal muscular atrophy not suspected and other disorders follow up required (situation)"/>
+					</coding>
+				</outcome>
+				<report>
+					<reference value="urn:uuid:4ae3b640-a32b-4879-8c6c-3896ac19da74"/>
+				</report>
+			</Procedure>
+		</resource>
+	</entry>
 	<!--Blood Spot Diagnostic Report-->
 	<entry>
 		<fullUrl value="urn:uuid:4ae3b640-a32b-4879-8c6c-3896ac19da74"/>
