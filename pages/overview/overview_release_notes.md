@@ -6,6 +6,12 @@ sidebar: overview_sidebar
 permalink: overview_release_notes.html
 summary: Summary release notes of the versions released in National Events Management Service Implementation Guide
 ---
+## 2.16.0 (23/01/2025) ##
+Spinal muscular atrophy screening test added
+
+- [Blood Spot Test Outcome](blood_spot_test_outcome_1.html)
+
+
 ## 2.15.0 (23/01/2025) ##
 Tyrosinaemia type 1 screening test added
 
